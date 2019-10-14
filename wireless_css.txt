@@ -1,0 +1,1513 @@
+body
+{
+	background: #EAE7DD;
+	color: #000000;
+	font: 23px verdana;
+	margin: 0px;
+	padding: 0px;
+	height: auto;
+}
+a:link, body_alink
+{
+	color: #2A3544;
+	text-decoration: none;
+}
+a:visited, body_avisited
+{
+	color: gray;
+}
+a:hover, a:active, body_ahover
+{
+	color: #FF4400;
+}
+.header
+{
+  margin: 0;
+  padding: 0;
+  min-height: 115px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+	background-color: #666172;
+	color: #FFFFFF;
+	size:2;
+	font-weight: bold;
+	align:center;
+}
+div.titlebg {
+  font-size: 35px;
+	border: 1px solid;
+  border-bottom-color: #ABB5B6;
+  border-right-color: #7D898E;
+  border-top-color: #7D898E;
+  border-left-color: #7D898E;
+}
+.titlebg, .titlebg a, .titlebg a:link, .titlebg a:visited
+{
+  width: 93%;
+  margin-left: 2%;
+  padding: 14px 14px;
+  font: bold 23px tahoma, verdana, arial, helvetica, sans-serif;
+  color: #006699;
+  text-decoration: none;
+  background-color: #CBE1E2;
+	size:1;
+}
+.oldtitlebg, .oldtitlebg a, .oldtitlebg a:link, .oldtitlebg a:visited
+{
+	background-color: #336699;
+	color: #FFFFFF;
+	size:1;
+}
+.newtitlebg, .newtitlebg a, .newtitlebg a:link, .newtitlebg a:visited
+{
+	background-color: #336699;
+	color: #FFFFFF;
+	font-weight: bold;
+	size:1;
+}
+.separator, .separator a, .separator a:link, .separator a:visited
+{
+	background-color: #EEEEEE;
+	color: #000000;
+	size:1;
+}
+.linkwindowbg
+{
+	background: #FFFFE4;
+  color: #2A3544;
+  width: 93%;
+  margin: 0 2%;
+  padding: 14px 14px;
+  border: 1px solid;
+  border-top-color: #FFFFFF;
+  border-left-color: #7D898E;
+  border-right-color: #7D898E;
+  border-bottom-color: #ABB5B6;
+}
+.windowbg
+{
+  width: 93%;
+  margin: 0 2%;
+  margin-bottom: 13px;
+  padding: 14px 14px;
+  background-color: #FFFFE4;
+  font-size: 35px;
+  color: #000000;
+  border: 1px solid #7D898E;
+  border-top: none;
+	size:1;
+}
+.oldwindowbg
+{
+  width: 93%;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 2%;
+  padding: 14px 14px;
+  color: #000000;
+  font-weight: 500;
+	background-color: #FFFFE4;
+  border: 1px solid;
+  border-bottom-color: #ABB5B6;
+  border-right-color: #7D898E;
+  border-top-color: #FFFFFF;
+  border-left-color: #7D898E;
+	size:1;
+}
+.newwindowbg
+{
+  width: 93%;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 2%;
+  padding: 14px 14px;
+  color: #000000;
+  font-weight: 500;
+	background-color: #FFFFE4;
+  border: 1px solid;
+  border-bottom-color: #ABB5B6;
+  border-right-color: #7D898E;
+  border-top-color: #FFFFFF;
+  border-left-color: #7D898E;
+	size:1;
+}
+.windowbg2, .thread, .thread_hot
+{
+  width: 93%;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 2%;
+  padding: 14px 14px;
+  color: #000000;
+  font-weight: 500;
+  background-color: #faf9e1;
+  border: 1px solid;
+  border-right-color: #7D898E;
+  border-top-color: #FFFFFF;
+  border-left-color: #7D898E;
+  border-bottom: none;
+	size:1;
+}
+.poster_hot {
+  background-color: #faf9e1;
+}
+.windowbg2 {
+  background: #AABEC0;
+  margin-bottom: 0;
+  font-size: 35px;
+}
+.Unreadwindowbg2, a:link.newwindowbg2, a:visited.newwindowbg2
+{
+	background-color: #CBDDED;
+	font-weight: bold;
+	color: #000000;
+	size:1;
+}
+.Oldwindowbg2
+{
+	background-color: #CBDDED;
+	color: #000000;
+        font-weight: bold;
+	size:1;
+}
+p.new {
+  margin-bottom: 0;
+  margin-top: 0;
+	padding: 14px 14px;
+  font-weight: 500;
+  border: 1px solid;
+  border-bottom-color: #ABB5B6;
+  border-right-color: #7D898E;
+  border-top-color: #FFFFFF;
+  border-left-color: #7D898E;
+}
+.new, a:link.new, a:visited.new
+{
+  background-color: #FFFFE4;
+  color: #000000;
+  width: 93%;
+  margin-left: 2%;
+  padding: 14px 14px;
+	size:1;
+}
+.thread_hot_new, a:link.thread_hot_new, a:visited.thread_hot_new
+{
+  width: 93%;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 2%;
+  padding: 14px 14px;
+  color: #000000;
+  font-weight: 500;
+  background-color: #FFFFC3;
+  border: 1px solid;
+  border-right-color: #7D898E;
+  border-top-color: #FFFFFF;
+  border-left-color: #7D898E;
+  border-bottom: none;
+	size:1;
+}
+.poster_hot_new {
+  background-color: #FFFFC3;
+}
+.thread_dot_hot_new, a:link.thread_dot_hot_new, a:visited.thread_dot_hot_new
+{
+  font-weight: bold;
+	background-color: #CBDDED;
+	color: #000000;
+	size:1;
+}
+.thread a, .thread_dot_hot a, .thread_dot_hot_new a, .thread_dot_lock a, .thread_hot a, .thread_hot_new a, .thread_new a {
+  background: none!important;
+}
+.thread_dot_hot, a:link.thread_dot_hot, a:visited.thread_dot_hot
+{
+ 	background-color: #CBDDED;
+  width: 93%;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 2%;
+  padding: 14px 14px;
+  color: #000000;
+  font-weight: 500;
+  border: 1px solid;
+  border-right-color: #7D898E;
+  border-top-color: #FFFFFF;
+  border-left-color: #7D898E;
+  border-bottom: none;
+	size:1;
+}
+.poster_dot_hot {
+  background: #CBDDED;
+}
+.thread_dot_lock {
+  background: #f0f2f2;
+  width: 93%;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 2%;
+  padding: 14px 14px;
+  color: #000000;
+  font-weight: 500;
+  border: 1px solid;
+  border-right-color: #7D898E;
+  border-top-color: #FFFFFF;
+  border-left-color: #7D898E;
+  border-bottom: none;
+	size:1;
+}
+.poster_dot_lock {
+  background: #f0f2f2;
+}
+.thread_new, a:link.thread_new, a:visited.thread_new
+{
+  width: 93%;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 2%;
+  padding: 14px 14px;
+  color: #000000;
+  font-weight: 500;
+  background-color: #FFFFE4;
+  border: 1px solid;
+  border-right-color: #7D898E;
+  border-top-color: #FFFFFF;
+  border-left-color: #7D898E;
+  border-bottom: none;
+	size:1;
+}
+.thread_new a {
+  color: green;
+}
+.old, a:link.old, a:visited.old
+{
+  width: 93%;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 2%;
+  padding: 14px 14px;
+  color: #000000;
+  background-color: #FFFFE4;
+	size:1;
+}
+p.old {
+	border: 1px solid;
+  border-bottom-color: #ABB5B6;
+  border-right-color: #7D898E;
+  border-top-color: #FFFFFF;
+  border-left-color: #7D898E;
+}
+div.navbar {
+	padding: 20px;
+  font-size: 25px;
+  border: 1px solid;
+  border-top-color: #FFFFFF;
+  border-left-color: #FFFFFF;
+  border-right-color: #ABB5B6;
+  border-bottom-color: #ABB5B6;
+  width: 92%;
+}
+.navbar, a:link.navbar, a:visited.navbar
+{
+	background-color: #AABEC0;
+	text-decoration: none;
+  margin: 20px;
+	border: none;
+  font-size: 35px;
+	size:1;
+}
+.footer, a:link.footer, a:visited.footer
+{
+  margin: 0;
+  padding: 0;
+  min-height: 115px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  background-color: #666172;
+  color: #FFFFFF;
+  text-align: center;
+	size:1;
+}
+.updated
+{
+	color: #ff0000;
+	size:1;
+}
+.quote
+{
+	background-color: #99BBDD;
+	color: #000000;
+	size:1;
+  font-size: 35px;
+}
+.sticky
+{
+  width: 93%;
+  margin-top: 0;
+  margin-bottom: 20px;
+  margin-left: 2%;
+  padding: 14px 14px;
+  color: #000000;
+  font-weight: 500;
+  background-color: #FFFFC3;
+  border: 1px solid;
+  border-right-color: #7D898E;
+  border-top-color: #FFFFFF;
+  border-left-color: #7D898E;
+  border-bottom: none;
+	size:1;
+}
+.sticky:first-line {
+  color: red;
+}
+.announce
+{
+	background-color: #FFCC66;
+	color: #000000;
+	size:1;
+}
+form[action*="login.php"] {
+	width: 94%;
+  height: 170px;
+  margin: 20px 2%;
+  padding: 10px;
+  background: #FFFFC3;
+  color: #006699;
+  border: 1px solid #7D898E;
+}
+form[action*="login.php"] input.windowbg
+{
+  width: 400px;
+  margin-top: 0;
+  margin-bottom: 0;
+	background-color: #E2ECF5;
+	color: #000000;
+  border: 2px solid gray;
+  border-radius: 9px;
+	size:1;
+}
+input.windowbg:focus {
+  box-shadow: 0 0 2pt 2pt #c6a565;
+}
+label {
+	font-size: 34px;
+  padding: 0 20px;
+}
+input[type='checkbox'] {
+	width: 28px;
+  height: 28px;
+  margin: 0 30px;
+}
+input[type="submit"], 
+input[type="reset"] {
+	width: 145px;
+  height: 62px;
+  font-size: 28px;
+}
+div {
+  background: #CBE1E2;
+  padding: 10px 10px;
+  margin: 9px 2%;
+  border: 1px solid #7D898E;
+  word-break: break-word;
+}
+form[action*="login.php"] div {
+  height: inherit;
+  background: none;
+  padding: 0;
+  margin: 0;
+  border: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+label[for*="navbar_username"] {
+  width: 210px;
+}
+label[for*="navbar_password"] {
+  width: 210px;
+}
+a[href*="tags.php"] {
+  font-size: 35px;
+  text-decoration: underline;
+  padding: 10px;
+}
+form[action*="newreply.php"] {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  flex-direction: column;
+  align-items: center;
+  background: #E7F1F2;
+  border: none;
+  box-sizing: border-box;
+}
+.form-reply-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 1025px;
+  margin: 20px 3%;
+  font-size: 30px;
+  background: none;
+  border: none;
+}
+textarea[name*="message"] {
+  width: 96%;
+  height: 400px;
+  margin-top: 15px;
+  border: 2px solid gray;
+  box-sizing: border-box;
+  font-size: 40px;
+}
+textarea#vB_Editor_001_textarea {
+  height: inherit;
+}
+input[value*="Post Reply"], 
+input[name*="sbutton"],
+input[type="text"],
+input[type="password"] {
+  margin-top: 10px;
+  height: 70px;
+  width: 240px;
+  font-size: 40px;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+div.post-reply {
+  min-height: 500px;
+  padding: 1px;
+  background: #E1E1E2;
+}
+form[action*="private.php"] {
+  width: 96%;
+  margin: 0 2%;
+  padding: 14px 14px;
+  background: #E7F1F2;
+  border: 1px solid #7D898E;
+  box-sizing: border-box;
+}
+form[action*="private.php"] div {
+  width: 94%;
+  height: auto;
+  margin: 20px 3%;
+  background: none;
+  border: none;
+}
+form[action*="private.php"] div.titlebg {
+  width: 100%;
+  margin: 0;
+  margin-top: -45px;
+  margin-bottom: 25px;
+  padding: 30px;
+  border: 1px solid;
+  border-bottom-color: #ABB5B6;
+  border-right-color: #7D898E;
+  border-top-color: #7D898E;
+  border-left-color: #7D898E;
+  background-color: #CBE1E2;
+  box-sizing: border-box;
+}
+label[for*="cb_savecopy"] input[type='checkbox'] {
+  margin-right: 40px;
+}
+.private-message-block {
+  box-sizing: border-box;
+}
+input[name*="recipients"], input[name*="title"] {
+  width: 100%;
+}
+.private-message-block div input {
+  float: right;
+  width: 180px;
+  height: 100px;
+  margin-right: -15px;
+}
+.private-message-block textarea[name*="message"] {
+  width: 100%;
+}
+.nav-personal-links {
+  display: flex;
+  flex-direction: column;
+  min-height: 1170px;
+  font-size: 35px;
+}
+.nav-personal-links div {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  background: #FFFFE4;
+}
+.new.message-unit, .old.message-unit {
+  font-size: 36px;
+  margin-bottom: 0;
+  border-bottom: none;
+}
+.windowbg.message-unit {
+  font-size: 23px;
+}
+.message-unit {
+  width: 93%;
+  margin: 0 2%;
+  margin-bottom: 20px;
+  padding: 14px 14px;
+}
+.messages-links-block {
+  display: flex;
+  flex-direction: column;
+  font-size: 45px;
+}
+.messages-links-block a {
+  margin: 15px;
+}
+
+form[action*="editpost.php"], 
+form[action*="profile.php?do=updatesignature"] {
+  width: 96%;
+  margin: 9px 2%;
+  padding: 1px;
+  border: 1px solid #7D898E;
+  background: #E1E1E2;
+}
+form[action*="editpost.php"]:last-of-type {
+  background: #E7F1F2;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+form[action*="editpost.php"] div,
+form[action*="profile.php?do=updatesignature"] div {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  border: none;
+  background: #E7F1F2;
+  box-sizing: border-box;
+  font-size: 32px;
+}
+form[action*="profile.php?do=updatesignature"] div:last-of-type {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+form[action*="profile.php?do=updatesignature"] div:last-of-type input[type="submit"] {
+  width: auto;
+  margin: 10px 30px;
+}
+form[action*="editpost.php"] div:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+.bginput {
+  margin: 15px 0;
+}
+form[action*="editpost.php"] textarea,
+form[action*="profile.php?do=updatesignature"] textarea {
+  width: 100%;
+  height: 650px;
+}
+input[name*="deletepost"] {
+  margin-left: 20px;
+  background: #FFFFE4;
+  color: red;
+}
+
+.message-buttons-block {
+  display: flex;
+  justify-content: flex-end;
+  width: 98%;
+  margin-top: 95px;
+  margin-bottom: 0;
+  margin-left: 0;
+  padding-bottom: 0;
+  background: none;
+  border: none;
+  border-top: 1px solid #D3DAE0;
+}
+.message-buttons-block a[href*="editpost.php?do=editpost"], 
+.message-buttons-block a[href*="newreply.php?do=newreply"], 
+.message-buttons-block a[href*="report.php?"], 
+.message-buttons-block a[href*="post_thanks.php?do=post_thanks_add"] {
+  display: inline-block;
+  width: 160px;
+  height: 70px;
+  margin: 0 20px;
+  background: url('./images/compro/buttons/edit.gif');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.message-buttons-block a[href*="newreply.php?do=newreply"] {
+  background: url('./images/compro/buttons/quote.gif');
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 3px;
+}
+.message-buttons-block a[href*="report.php?"] {
+  background: url('./images/compro/buttons/report.gif');
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 4px;
+  width: 71px;
+  margin-right: 0;
+}
+.message-buttons-block a[href*="post_thanks.php?do=post_thanks_add"] {
+  position: absolute;
+  left: 26px;
+  width: 107px;
+  margin-top: -2px;
+  background: url('./images/compro/buttons/post_thanks.gif');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.message-buttons-block div[id^="post_thanks_box_"] {
+  position: absolute;
+  left: 24px;
+  margin-top: -70px;
+  background: none;
+  border: none;
+  color: #006699;
+  font-size: 30px;
+}
+.message-buttons-block div[id^="post_thanks_box_"]>div {
+  background: none;
+  border: none;
+  margin: 0;
+}
+
+.search-form-block {
+  height: 518px;
+  padding: 1px;
+  background: #E1E1E2;
+}
+.search-form-block form {
+  height: 500px;
+  width: 98%;
+  margin: 1% 1%;
+  padding: 14px 14px;
+  background: #E7F1F2;
+  box-sizing: border-box;
+}
+.search-form-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: inherit;
+  border: none;
+  margin: 20px 0;
+}
+.search-form-input input.bginput {
+  width: 100%;
+  border: 1px solid gray;
+}
+.search-form-input input.button {
+  margin-top: 20px;
+}
+.search-form-radiobuttons {
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: inherit;
+  border: none;
+}
+.search-form-radiobuttons label {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.search-form-radiobuttons input[type="radio"] {
+  width: 70px;
+  height: 70px;
+  margin-right: 30px;
+}
+td.tcat {
+  display: flex;
+  flex-direction: column-reverse;
+  font-size: 32px;
+  font-weight: bold;
+  color: #006699;
+  text-align: center;
+}
+td.tcat .smallfont {
+  font-weight: normal;
+}
+
+.floatcontainer {
+  display: flex;
+  flex-direction: column;
+  width: 96%;
+  padding: 0;
+  margin: 0 2%;
+  background: inherit;
+  border: none;
+}
+.floatwrapper {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: inherit;
+  box-sizing: border-box;
+  border: none;
+}
+div#sg_catcloud, 
+div#sg_randomgroup, 
+div#sg_mygroups {
+  background: inherit;
+  padding: 0;
+  margin: 30px 0 50px 0;
+  border: 1px solid #7D898E;
+}
+div#sg_catcloud form {
+  width: 100%;
+  border: 1px solid;
+  border-top-color: #FFFFFF;
+  border-left-color: #FFFFFF;
+  border-bottom-color: #ABB5B6;
+  border-right-color: #ABB5B6;
+}
+form[action*="group.php?do=grouplist"] td.tcat {
+  height: 360px;
+  background: #AABEC0;
+  border: 1px solid;
+  border-top-color: #FFFFFF;
+  border-left-color: #FFFFFF;
+  border-bottom-color: #ABB5B6;
+  border-right-color: #ABB5B6;
+}
+form[action*="group.php?do=grouplist"] td.tcat .normal {
+  width: 100%;
+  margin: 20px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  color: #666666;
+  background: #CBE1E2;
+  border: 1px solid;
+  border-top-color: #FFFFFF;
+  border-left-color: #FFFFFF;
+  border-bottom-color: #ABB5B6;
+  border-right-color: #ABB5B6;
+}
+form[action*="group.php?do=grouplist"] td.tcat .normal input.bginput {
+  width: 100%;
+  margin-top: 40px;
+  border: 1px solid gray;
+}
+td.alt1 {
+  min-height: 70px;
+  padding: 20px;
+  background: #FFFFE4;
+  border: 1px solid;
+  border-top-color: #FFFFFF;
+  border-left-color: #FFFFFF;
+  border-bottom-color: #ABB5B6;
+  border-right-color: #ABB5B6;
+}
+a.sg_catcloudlink.sg_catlevel2 {
+  font-size: 32px;
+}
+td.tfoot.smallfont {
+  background: #AABEC0;
+  padding: 20px;
+  border: 1px solid;
+  border-top-color: #FFFFFF;
+  border-left-color: #FFFFFF;
+  border-bottom-color: #ABB5B6;
+  border-right-color: #ABB5B6;
+}
+td.tfoot.smallfont a, 
+a[href*="group.php?groupid"] {
+  text-decoration: underline;
+  font-size: 28px;
+}
+
+div#sg_randomgroup td.tcat, 
+div#sg_mygroups td.tcat,
+div#sg_newgroups td.tcat {
+  padding: 20px 0;
+  background: #AABEC0;
+  border: 1px solid;
+  border-top-color: #FFFFFF;
+  border-left-color: #FFFFFF;
+  border-bottom-color: #ABB5B6;
+  border-right-color: #ABB5B6;
+}
+td.alt1 span.smallfont a {
+  text-decoration: underline;
+}
+a[href*="group.php?groupid"] {
+  display: block;
+  margin: 60px 10px 0 10px;
+}
+
+#sg_owngroups td.alt1, 
+#sg_randomgroup td.alt1 {
+  padding: 5px!important;
+  border: 1px solid!important;
+  border-top-color: #FFFFFF!important;
+  border-left-color: #FFFFFF!important;
+  border-bottom-color: #ABB5B6!important;
+  border-right-color: #ABB5B6!important;
+}
+#sg_owngroups div.sgicon, 
+#sg_randomgroup div.sgicon {
+  background: none!important;
+  border: none!important;
+  width: 190px!important;
+}
+#sg_owngroups img.sgicon, 
+#sg_randomgroup img.sgicon {
+  width: 100%!important;
+  height: auto!important;
+}
+#sg_owngroups_info, #sg_randomgroup_info {
+  background: none!important;
+  width: 60%!important;
+}
+#sg_randomgroup_info table {
+  width: 100%;
+}
+#sg_randomgroup_info td {
+  width: 50%;
+}
+#sg_owngroups_info div, #sg_randomgroup_info div {
+  display: flex!important;
+  align-items: center!important;
+  height: 140px!important;
+  background: #CBE1E2!important;
+}
+#sg_owngroups_info div a, #sg_randomgroup_info div a {
+  margin: 0!important;
+}
+div#sg_mygroups table.tborder {
+  margin-bottom: 2px!important;
+  background: #AABEC0;
+}
+
+div#sg_newgroups {
+  width: 100%!important;
+  background: inherit!important;
+  padding: inherit!important;
+  margin: 30px 0 50px 0!important;
+  border: 1px solid #7D898E!important;
+}
+div#sg_newgroups div.sgicon {
+  width: 44%!important;
+  height: 118px!important;
+  padding: 8px!important;
+  padding-top: 0px!important;
+  overflow: hidden!important;
+  background: none!important;
+}
+#sg_newgroups div.sgicon a {
+  display: flex!important;
+  align-items: center!important;
+  justify-content: center!important;
+  height: 100%!important;
+  margin: 0!important;
+  word-break: normal!important;
+}
+#sg_newgroups div.sgicon a img {
+  margin-right: 13px!important;
+}
+#sg_newgroups div.sgicon a span.smallfont  {
+  display: block!important;
+  height: auto!important;
+  width: inherit!important;
+}
+
+.floatcontainer .action_links {
+  width: 100%!important;
+  background: #CBE1E2!important;
+  padding: 20px!important;
+  margin: 15px 0!important;
+  border: 1px solid #7D898E!important;
+  box-sizing: border-box!important;
+  text-decoration: underline!important;
+}
+
+form[action*="group.php?do=docreate"], 
+form[action*="groupsubscription.php"] {
+  border: 1px solid #7D898E;
+  width: 96%;
+  margin: 0 2%;
+}
+form[action*="group.php?do=docreate"] td.tcat,
+form[action*="groupsubscription.php"] td.tcat {
+  width: 100%;
+  padding: 20px 0;
+  box-sizing: border-box;
+  background: #AABEC0;
+  border: 1px solid;
+  border-top-color: #FFFFFF;
+  border-left-color: #FFFFFF;
+  border-bottom-color: #ABB5B6;
+  border-right-color: #ABB5B6;
+}
+form[action*="group.php?do=docreate"] div.panel {
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  border: 1px solid;
+  border-top-color: #FFFFFF;
+  border-left-color: #FFFFFF;
+  border-bottom-color: #ABB5B6;
+  border-right-color: #ABB5B6;
+}
+form[action*="group.php?do=docreate"] div.panel table {
+  width: 100%;
+}
+form[action*="group.php?do=docreate"] div.panel table td {
+  color: #006699;
+  width: 100%;
+}
+form[action*="group.php?do=docreate"] div.panel select {
+  width: 400px;
+  height: 70px;
+  margin: 20px;
+  padding: 0 20px;
+  font-size: 32px;
+}
+form[action*="group.php?do=docreate"] div.panel input[type="text"] {
+  width: 96%;
+  margin: 2%;
+  border: 1px solid gray;
+}
+form[action*="group.php?do=docreate"] div.panel textarea {
+  width: 96%;
+  height: 300px;
+  margin: 2%;
+  padding: 20px;
+  border: 1px solid gray;
+  box-sizing: border-box;
+  font-size: 40px;
+}
+form[action*="group.php?do=docreate"] div.panel fieldset {
+  width: 96%;
+  margin: 2%;
+  box-sizing: border-box;
+  border: 1px solid gray;
+}
+form[action*="group.php?do=docreate"] div.panel fieldset div.smallfont {
+  height: auto;
+  padding: 0;
+  background: inherit;
+  border: none;
+}
+form[action*="group.php?do=docreate"] div.panel fieldset div {
+  height: 50px;
+  padding: 20px;
+  background: inherit;
+  border: none;
+}
+form[action*="group.php?do=docreate"] td.panelsurround div:last-child {
+  width: 100%;
+  margin: 0;
+  padding: 20px 0;
+  box-sizing: border-box;
+  background: #AABEC0;
+  border: 1px solid;
+  border-top-color: #FFFFFF;
+  border-left-color: #FFFFFF;
+  border-bottom-color: #ABB5B6;
+  border-right-color: #ABB5B6;
+}
+
+.search-form-wrapper {
+  width: 96%;
+  padding: 0;
+  margin: 0 2%;
+  border: 1px solid #7D898E;
+}
+.search-form-wrapper form[action*="group.php?do=grouplist"] td.tcat {
+  height: auto;
+  padding: 20px;
+}
+.search-form-wrapper form[action*="group.php?do=grouplist"] td.panelsurround {
+  width: 100%;
+  border: 1px solid;
+  border-top-color: #FFFFFF;
+  border-left-color: #FFFFFF;
+  border-bottom-color: #ABB5B6;
+  border-right-color: #ABB5B6;
+}
+.search-form-wrapper form[action*="group.php?do=grouplist"] td.panelsurround div.panel {
+  border: none;
+}
+.search-form-wrapper form[action*="group.php?do=grouplist"] td.panelsurround div.panel tr {
+  display: flex;
+  flex-direction: column;
+}
+.search-form-wrapper form[action*="group.php?do=grouplist"] td.panelsurround div.panel tr td {
+  width: 100%!important;
+}
+.search-form-wrapper form[action*="group.php?do=grouplist"] td.panelsurround div.panel tr td fieldset {
+  width: 96%;
+  margin: 2%;
+  box-sizing: border-box;
+}
+.search-form-wrapper form[action*="group.php?do=grouplist"] td.panelsurround div.panel tr td fieldset div {
+  background: inherit;
+  border: none;
+}
+.search-form-wrapper form[action*="group.php?do=grouplist"] td.panelsurround div.panel tr td fieldset label {
+  padding: 0;
+  color: #006699;
+}
+.search-form-wrapper legend {
+  color: #22229C;
+}
+.search-form-wrapper form[action*="group.php?do=grouplist"] input[type="text"] {
+  width: 96%!important;
+  margin: 2%;
+  border: 1px solid gray;
+}
+.search-form-wrapper div.panel select {
+  width: 280px!important;
+  height: 70px;
+  margin: 20px;
+  padding: 0 20px;
+  font-size: 32px;
+}
+.search-form-wrapper form[action*="group.php?do=grouplist"] table label input[name="memberlimit"],
+.search-form-wrapper form[action*="group.php?do=grouplist"] table label input[name="discussionlimit"],
+.search-form-wrapper form[action*="group.php?do=grouplist"] table label input[name="messagelimit"],
+.search-form-wrapper form[action*="group.php?do=grouplist"] table label input[name="picturelimit"] {
+  width: 60%!important;
+}
+.search-form-wrapper form[action*="group.php?do=grouplist"] td.panelsurround div.panel tr td fieldset table tr {
+  border-bottom: 1px solid gray;
+}
+.search-form-wrapper form[action*="group.php?do=grouplist"] td.panelsurround div.panel tr td fieldset table tr:last-child {
+  border-bottom: none;
+}
+.search-form-wrapper form[action*="group.php?do=grouplist"] td.panelsurround div.panel tr td fieldset table {
+  width: 100%;
+}
+.search-form-wrapper form[action*="group.php?do=grouplist"] td.panelsurround div.panel tr td:last-child fieldset:first-child div table tr {
+  display: flex;
+  flex-direction: row;
+}
+.search-form-wrapper form[action*="group.php?do=grouplist"] td.panelsurround div.panel tr td:last-child fieldset:first-child div table tr td {
+  width: 33%!important;
+}
+.search-form-wrapper form[action*="group.php?do=grouplist"] td.panelsurround div.panel tr td:last-child fieldset:first-child div table tr td select,
+.search-form-wrapper form[action*="group.php?do=grouplist"] td.panelsurround div.panel tr td:last-child fieldset:first-child div table tr td input {
+  width: 90%!important;
+  margin: 6px 0 0 5%;
+}
+.search-form-wrapper input[type="submit"] {
+  width: 200px;
+}
+.search-form-wrapper form[action*="group.php?do=grouplist"] td.panelsurround div:last-child {
+  margin: 0;
+  padding: 20px 0;
+  background: #AABEC0;
+  border: 1px solid;
+  border-top-color: #FFFFFF;
+  border-left-color: #FFFFFF;
+  border-bottom-color: #ABB5B6;
+  border-right-color: #ABB5B6;
+}
+
+.pagination-block {
+  display: flex;
+  flex-direction: column;
+  width: 93%;
+  margin: 0 2%;
+  align-items: center;
+  padding: 25px 14px;
+  font-size: 35px;
+  background-color: #FFFFE4;
+}
+.pagination-block span {
+  display: inline-block;
+  width: auto;
+}
+
+.pagination-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-width: 40%;
+  padding: 0;
+  margin: 0 0 20px 0;
+  font-size: 35px;
+  background: inherit;
+  border: none;
+}
+
+.pagination-links a {
+  margin: 0;
+  padding: 0;
+}
+.pagination-links .arrow-link,
+.pagination-links .double-arrow-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75px;
+  height: 47px;
+  margin: 0 90px;
+  padding: 2px 0px;
+  font-size: 43px;
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 34%, rgba(187, 211, 224, 0.8) 61%, rgba(240, 244, 252, 0.8) 100%), linear-gradient(90deg, rgb(108, 135, 150) 2%, rgba(240, 244, 252, 1) 6%, rgba(240, 244, 252, 1) 93%, rgb(108, 135, 150) 100%);
+  border: 2px solid rgb(36, 70, 119);
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 1px var(--box-shadow-color);
+  --box-shadow-color: rgb(126, 140, 148);
+  outline: none;
+  box-sizing: border-box;
+}
+.pagination-links .double-arrow-link {
+  margin: 0;
+}
+
+.pagination-links option {
+  font-size: 20px;
+}
+
+.pagination-block select.pagenav-mobile {
+  display: inline-block;
+  width: 150px;
+  height: 47px;
+  padding: 2px 21px;
+  -webkit-appearance: none;
+  font-size: inherit;
+  border: 2px solid rgb(36, 70, 119);
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 1px var(--box-shadow-color);
+  --box-shadow-color: rgb(126, 140, 148);
+  background-image: url('/images/hand.png'), linear-gradient(180deg, rgba(255, 255, 255, 0.8) 34%, rgba(187, 211, 224, 0.8) 61%, rgba(240, 244, 252, 0.8) 100%), linear-gradient(90deg, rgb(108, 135, 150) 2%, rgba(240, 244, 252, 1) 6%, rgba(240, 244, 252, 1) 93%, rgb(108, 135, 150) 100%);
+  position: relative;
+  outline: none;
+  overflow: hidden;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
+}
+.pagination-select {
+  position: relative;
+  width: auto;
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: none;
+}
+
+.forum-type-links {
+  display: flex;
+  justify-content: space-between;
+  background: inherit;
+  border: none;
+  padding: 0;
+}
+.forum-type-links a:first-child {
+  width: 43%;
+}
+.forum-type-links a:last-child {
+  width: 63%;
+  text-align: end;
+  display: flex;
+  justify-content: flex-end;
+}
+.forum-type-links .linkwindowbg {
+  margin: 0;
+  padding: 20px 0;
+  background: inherit;
+  color: #2A3544;
+  border: none;
+  text-decoration: underline;
+  font-size: 29px;
+}
+
+.windowbg div.smallfont {
+  border: none;
+}
+.windowbg .alt2 {
+  display: flex;
+  width: 100%!important;
+  height: auto!important;
+  min-height: 34px!important;
+  overflow-y: hidden!important;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap !important;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+  font-size: 35px;
+}
+.windowbg .alt2 code span:only-child {
+  display: block;
+  height: auto;
+  white-space: initial;
+}
+.windowbg img[src*="images/smilies/"] {
+  height: 60px;
+}
+
+.post-reply form[action*="newreply.php"],
+form[action*="newthread.php"] {
+  font-size: 32px;
+  font-weight: bold;
+  color: #006699;
+}
+.post-reply form[action*="newreply.php"] #vB_Editor_001_controls table,
+form[action*="newthread.php"] #vB_Editor_001_controls table {
+  background: #E1E1E2;
+  padding: 6px;
+  border: 2px groove;
+}
+form[action*="newthread.php"] .panel div {
+  border: none;
+  padding: 0;
+  margin: 5px;
+}
+form[action*="newthread.php"] .panel div.smallfont {
+  text-align: left;
+}
+form[action*="newthread.php"] table.fieldset,
+form[action*="newthread.php"] table.fieldset input.bginput,
+form[action*="newthread.php"] table.fieldset tr:last-child>td {
+  width: 100%;
+}
+.post-reply form[action*="newreply.php"] #vB_Editor_001_popup_forecolor table {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+form[action*="newthread.php"] td.tcat img {
+  width: 70px;
+}
+.post-reply form[action*="newreply.php"] .tborder td.tcat,
+.post-reply form[action*="newreply.php"] .tborder td.panelsurround,
+.post-reply form[action*="newreply.php"] td.panelsurround div.panel table tr:nth-child(3) td {
+  width: 100%;
+}
+#vB_Editor_001_popup_forecolor table,
+form[action*="newthread.php"] #vB_Editor_001_popup_forecolor table {
+  padding: 1px;
+  border: none;
+}
+.post-reply form[action*="newreply.php"] td.panelsurround div.panel {
+  background: inherit;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.post-reply form[action*="newreply.php"] td.panelsurround div.panel table {
+  width: 100%;
+}
+.post-reply form[action*="newreply.php"] td.panelsurround div.panel table tr:first-child .smallfont {
+  color: #006699;
+  font-size: 35px;
+}
+.post-reply form[action*="newreply.php"] td.panelsurround div.panel table tr:nth-child(2) .controlbar,
+.post-reply form[action*="newreply.php"] .controlbar {
+  border: none;
+  background: inherit;
+}
+.post-reply form[action*="newreply.php"] td.panelsurround div.panel table tr:nth-child(2) .controlbar textarea,
+.post-reply form[action*="newreply.php"] .controlbar textarea,
+form[action*="newthread.php"] #vB_Editor_001_controls textarea {
+  width: 100%!important;
+  height: 475px!important;
+}
+.post-reply form[action*="newreply.php"] td.panelsurround div.panel table tr:nth-child(2) .controlbar .imagebutton img,
+.post-reply form[action*="newreply.php"] table tr img,
+form[action*="newthread.php"] #vB_Editor_001_controls .imagebutton img {
+  width: 70px!important;
+  height: 70px!important;
+}
+.post-reply form[action*="newreply.php"] td.panelsurround div.panel table tr:nth-child(2) .controlbar img[src*="separator"],
+.post-reply form[action*="newreply.php"] img[src*="separator"],
+form[action*="newthread.php"] #vB_Editor_001_controls img[src*="separator"] {
+  width: 10px!important;
+  height: 70px!important;
+}
+.post-reply form[action*="newreply.php"] td.panelsurround div.panel table tr:nth-child(2) .controlbar tr,
+form[action*="newthread.php"] #vB_Editor_001_controls tr {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.post-reply form[action*="newreply.php"] td.panelsurround div.panel table tr:nth-child(2) .controlbar tr td,
+.post-reply form[action*="newreply.php"] table tr td,
+form[action*="newthread.php"] #vB_Editor_001_controls tr td {
+  margin: 10px;
+}
+.post-reply form[action*="newreply.php"] td.panelsurround div.panel table tr:nth-child(2) .controlbar tr td:last-child {
+  display: flex;
+}
+.post-reply form[action*="newreply.php"] td.panelsurround div.panel table tr:nth-child(3) fieldset {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 1px!important;
+}
+.post-reply form[action*="newreply.php"] td.panelsurround div.panel table tr:nth-child(3) fieldset legend {
+  font-size: 35px;
+}
+.post-reply form[action*="newreply.php"] td.panelsurround div.panel table tr:nth-child(3) fieldset div {
+  background: inherit;
+  border: none;
+}
+.post-reply form[action*="newreply.php"] td.panelsurround div.panel table tr:nth-child(3) fieldset input {
+  width: 35px;
+  height: 35px;
+  margin: 0 50px 0 0;
+}
+.post-reply form[action*="newreply.php"] thead td.tcat img {
+  width: 70px;
+  margin-top: 20px;
+}
+.post-reply form[action*="newreply.php"] td.panelsurround div.panel~div {
+  background: inherit;
+  border: none;
+}
+.post-reply form[action*="newreply.php"] td.panelsurround div.panel~div input[name="sbutton"] {
+  width: auto;
+  height: 100px;
+  margin-bottom: 30px;
+}
+.post-reply form[action*="newreply.php"] td.panelsurround div.panel~div input[name="preview"] {
+  width: auto;
+  height: 100px;
+  font-size: 40px;
+}
+#vB_Editor_QR_controls tr,
+.post-reply form[action*="newreply.php"] table tr {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.post-reply #vB_Editor_QR_popup_forecolor {
+  width: 120px;
+}
+.post-reply #vB_Editor_QR_popup_forecolor tr,
+.post-reply #vB_Editor_001_popup_forecolor tr {
+  flex-wrap: nowrap;
+}
+.post-reply #vB_Editor_QR_color_out {
+  margin: 10px 0;
+}
+.post-reply #vB_Editor_QR_color_out img[src*="color"],
+.post-reply #vB_Editor_001_color_out img[src*="color"],
+form[action*="newthread.php"] #vB_Editor_001_color_out img[src*="color"] {
+  width: 60px!important;
+  height: 50px!important;
+}
+.post-reply #vB_Editor_QR_color_out img[src*="clear"],
+.post-reply #vB_Editor_001_color_out img[src*="clear"],
+form[action*="newthread.php"] #vB_Editor_001_color_out img[src*="clear"] {
+  height: 10px!important;
+  width: 50px!important;
+}
+.post-reply form[action*="newreply.php"] td.panelsurround div.panel table td[width="100%"],
+.post-reply form[action*="newreply.php"] table td[width="100%"],
+form[action*="newthread.php"] #vB_Editor_001_controls td[width="100%"] {
+  height: 0;
+  margin: 0!important;
+}
+#vB_Editor_QR_popup_forecolor_menu {
+  position: absolute;
+  margin-top: -150px;
+}
+#vB_Editor_001_popup_forecolor_menu {
+  position: absolute;
+  margin-top: -685px;
+}
+#vB_Editor_QR_popup_forecolor_menu td.ocolor,
+#vB_Editor_001_popup_forecolor_menu td.ocolor {
+  width: 50px;
+  height: 50px;
+  margin: 20px!important;
+  padding: 0;
+  background: inherit;
+  border: none;
+}
+#vB_Editor_QR_popup_forecolor_menu td.ocolor>div,
+#vB_Editor_001_popup_forecolor_menu td.ocolor>div {
+  width: 100%;
+  height: 100%;
+  padding: 0!important;
+  margin: 0!important;
+  box-sizing: border-box;
+}
+.make-thread-block img {
+  width: 320px;
+  height: 80px;
+}
+form[action*="newthread.php"] input[name*="sbutton"] {
+  width: auto;
+}
+form[action*="newthread.php"] fieldset.fieldset input.button {
+  margin-top: 25px;
+  height: 70px;
+  width: auto;
+  font-size: 40px;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+form[action*="newthread.php"] fieldset.fieldset select {
+  margin-top: 25px;
+  height: 70px;
+  width: 350px;
+  font-size: 40px;
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 2px 21px;
+  -webkit-appearance: none;
+  border: 2px solid rgb(36, 70, 119);
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 1px var(--box-shadow-color);
+  --box-shadow-color: rgb(126, 140, 148);
+  background-image: url(/images/hand.png), linear-gradient(180deg, rgba(255, 255, 255, 0.8) 34%, rgba(187, 211, 224, 0.8) 61%, rgba(240, 244, 252, 0.8) 100%), linear-gradient(90deg, rgb(108, 135, 150) 2%, rgba(240, 244, 252, 1) 6%, rgba(240, 244, 252, 1) 93%, rgb(108, 135, 150) 100%);
+  position: relative;
+  outline: none;
+  overflow: hidden;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
+}
+form[action*="newthread.php"] fieldset.fieldset select option {
+  font-size: 12px;
+  padding: 0;
+}
+form[action*="newthread.php"] fieldset.fieldset {
+  box-sizing: border-box;
+  width: 97%;
+  text-align: left;
+}
+form[action*="newthread.php"] legend {
+  color: #22229C;
+}
+form[action*="newthread.php"] fieldset.fieldset input[type="text"] {
+  width: 100%;
+}
+form[action*="newthread.php"] fieldset.fieldset input#polloptnum {
+  width: 120px;
+  margin-left: 20px;
+}
+form[action*="newthread.php"] fieldset.fieldset input[type="checkbox"] {
+  width: 50px;
+  height: 50px;
+  margin-right: 25px;
+}
+form[action*="newthread.php"] fieldset.fieldset label {
+  padding: 0;
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+}
